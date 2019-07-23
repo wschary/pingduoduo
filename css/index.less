@@ -1,0 +1,113 @@
+body {
+    background-color: #fff;
+}
+header {
+    height: 102px;
+    border-bottom: 4px solid #ed435b;
+    width: 100%;
+    background-color: #fff;
+    .wrap {
+        
+        background: url(../img/fixed/pdd_logo.png) no-repeat;
+        background-position: center left;
+        background-color: #fff;
+        ul{
+            margin-top: 40px;
+            margin-right: 22px;
+            float: right;
+            li {
+                float: left;
+                a {
+                    font-size: 18px;
+                    color: #6c6c6c;
+                }
+            }
+            li.line {
+                display: inline-block;
+                margin: 0 14px;
+                height: 20px;
+                width: 1px;
+                background-color: #6c6c6c;
+
+            }
+            .red {
+                color: #fc475d;
+            }
+        }
+    }
+}
+.wrap {
+    width: 1222px;
+    height: 100%;
+    margin: 0 auto;
+}
+.banner {
+    height: 316px;
+    background: url(../img/update/index_banner.jpg) no-repeat;
+    background-size: cover;
+}
+.body {
+    background-color:#fafafa;
+    .title {
+        padding-top: 78px;
+        padding-bottom: 16px;
+        font-size: 20px;
+        border-bottom: 1px solid #c1c1c1;
+        a {
+            color: #363636;
+        }
+        a:first-child {
+            float: left;
+        }
+        a:last-child {
+            float: right;
+        }
+    }
+    .content-group {
+        background-color: #fafafa;
+        margin-top: 20px;
+        .lef_content {
+            background-color: #fafafa;
+            float: left;
+            width: 840px;
+            
+            a {
+                display: block;
+                float: left;
+                padding: 14px;
+                background-color: #fff;
+                &:first-child{
+                    margin-bottom: 20px;
+                }
+                &:nth-child(2){
+                    margin-right: 16px;
+                }
+            }
+            
+        }
+        .right_content {
+            width: 350px;   
+            float: right;
+            a {
+                background-color: #fff;
+                display: block;
+                float: left;
+                padding: 14px;
+                &:first-child {
+                    margin-bottom: 16px;
+                }
+            }
+        }
+    }
+}
+.fix_ewm {
+    height: 134px;
+    width: 120px;
+    position: fixed;
+    left: -60px;
+    top: 50%;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}

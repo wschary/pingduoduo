@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+.clearfix::after, .clearfix::before {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+a {
+    text-decoration: none;
+}
+input {
+    outline: none;
+    border: 0;
+}
+li {
+    list-style: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.f12 {
+    font-size: 12px;
+}
+.f14 {
+    font-size: 14px;
+}
+.f16 {
+    font-size: 16px;
+}
+.f18 {
+    font-size: 18px;
+}
+.f20 {
+    font-size: 20px;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+body {
+    font-size: 12px;
+    background-color: #f6f6f6;
+}

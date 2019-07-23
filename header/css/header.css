@@ -1,0 +1,35 @@
+header {
+  height: 102px;
+  border-bottom: 4px solid #ed435b;
+  width: 100%;
+}
+header .wrap {
+  width: 1222px;
+  height: 100%;
+  margin: 0 auto;
+  background: url(../img/pdd_logo.png) no-repeat;
+  background-position: center left;
+  background-color: #fff;
+}
+header .wrap ul {
+  margin-top: 40px;
+  margin-right: 22px;
+  float: right;
+}
+header .wrap ul li {
+  float: left;
+}
+header .wrap ul li a {
+  font-size: 18px;
+  color: #6c6c6c;
+}
+header .wrap ul li.line {
+  display: inline-block;
+  margin: 0 14px;
+  height: 20px;
+  width: 1px;
+  background-color: #6c6c6c;
+}
+header .wrap ul .red {
+  color: #fc475d;
+}
